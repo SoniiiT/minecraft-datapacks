@@ -1,0 +1,1 @@
+effect give SoniiiT jump_boost 1 10
