@@ -1,0 +1,1 @@
+{"criteria":{"crafted":{"trigger":"minecraft:recipe_crafted","conditions":{"recipe_id":"minecraft:golden_axe"}}},"rewards":{"function":"smp:ages/guard/iron_tier_crafted"}}
