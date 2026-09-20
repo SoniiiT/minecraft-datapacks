@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Player Info – Herzen unter dem Namen und Spielzeit in der Tab-Liste",
+    "min_format": 101.1,
+    "max_format": 199
+  }
+}
