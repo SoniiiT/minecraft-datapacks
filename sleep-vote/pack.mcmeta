@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Sleep Vote – 50% der Spieler schlafen, nach 3 Sekunden wird es Tag",
+    "description": "Sleep Vote – 50% der Spieler schlafen, nach 6 Sekunden wird es Tag",
     "min_format": 101.1,
     "max_format": 199
   }
