@@ -1,5 +1,5 @@
 # Laeuft als der Spieler: wuerfelt einen guten Effekt (20 Minuten = 1200 Sekunden)
-execute store result score @s sleep run random value 0..9
+execute store result score @s sleep run random value 0..14
 execute if score @s sleep matches 0 run effect give @s minecraft:strength 1200 0
 execute if score @s sleep matches 0 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.strength","color":"green"}]
 execute if score @s sleep matches 1 run effect give @s minecraft:regeneration 1200 0
@@ -20,4 +20,14 @@ execute if score @s sleep matches 8 run effect give @s minecraft:water_breathing
 execute if score @s sleep matches 8 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.water_breathing","color":"green"}]
 execute if score @s sleep matches 9 run effect give @s minecraft:health_boost 1200 1
 execute if score @s sleep matches 9 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.health_boost","color":"green"}]
+execute if score @s sleep matches 10 run effect give @s minecraft:absorption 1200 1
+execute if score @s sleep matches 10 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.absorption","color":"green"}]
+execute if score @s sleep matches 11 run effect give @s minecraft:slow_falling 1200 0
+execute if score @s sleep matches 11 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.slow_falling","color":"green"}]
+execute if score @s sleep matches 12 run effect give @s minecraft:luck 1200 0
+execute if score @s sleep matches 12 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.luck","color":"green"}]
+execute if score @s sleep matches 13 run effect give @s minecraft:dolphins_grace 1200 0
+execute if score @s sleep matches 13 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.dolphins_grace","color":"green"}]
+execute if score @s sleep matches 14 run effect give @s minecraft:hero_of_the_village 1200 0
+execute if score @s sleep matches 14 run tellraw @s ["", {"text":"[Schlafen] ","color":"gold"}, {"text":"Dein Boost: ","color":"light_purple"}, {"translate":"effect.minecraft.hero_of_the_village","color":"green"}]
 scoreboard players reset @s sleep

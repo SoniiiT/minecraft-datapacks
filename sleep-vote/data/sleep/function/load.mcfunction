@@ -6,3 +6,4 @@ scoreboard players set #active sleep 0
 scoreboard players set #ticks sleep 0
 scoreboard players set #cooldown sleep 0
 scoreboard players set #announced sleep 0
+scoreboard players set #scan sleep 0
